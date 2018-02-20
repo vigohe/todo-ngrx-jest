@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTodo should set payload to a Todo 1`] = `"[Todo] ADD"`;
+
+exports[`AddTodo should set payload to a Todo 2`] = `"GO TO WORK!"`;
