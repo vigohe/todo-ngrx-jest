@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo Reducer RemoveTodo action should remove a Todo 1`] = `
+Array [
+  Object {
+    "complete": false,
+    "id": 2,
+    "text": "WATCH A MOVIE",
+  },
+]
+`;
+
+exports[`Todo Reducer ToggleTodo action should toggle a Todo 1`] = `
+Array [
+  Object {
+    "complete": false,
+    "id": 1,
+    "text": "READ A BOOK",
+  },
+  Object {
+    "complete": true,
+    "id": 2,
+    "text": "WATCH A MOVIE",
+  },
+]
+`;

@@ -1,3 +1,3 @@
-<p>
-  input works!
-</p>
+<div>
+  <input #todo_input placeholder="Add a todo" (keyup.enter)="addTodo(todo_input.value); todo_input.value=''" />
+</div>

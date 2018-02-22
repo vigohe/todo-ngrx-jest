@@ -1,4 +1,5 @@
 import { Action } from '@ngrx/store';
+import { Todo } from '../models/todo';
 
 export enum TodoActionTypes {
   AddTodo = '[Todo] ADD',
@@ -13,12 +14,12 @@ export class AddTodo implements Action {
 
 export class RemoveTodo implements Action {
   readonly type = TodoActionTypes.RemoveTodo;
-  constructor(public payload : any) {};
+  constructor(public payload : Todo) {};
 }
 
 export class ToggleTodo implements Action {
   readonly type = TodoActionTypes.ToggleTodo;
-  constructor(public payload : any) {};
+  constructor(public payload : Todo) {};
 }
 
 

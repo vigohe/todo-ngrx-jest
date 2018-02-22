@@ -1,3 +1,3 @@
-<p>
-  item works!
-</p>
+<h1 [style.text-decoration]="todo.complete ? 'line-through' : ''">
+    {{todo.text}} <input type="checkbox" (change)="onChecked(todo)" [checked]="todo.complete"/> <button (click)="onRemove(todo)">X</button>
+</h1>
