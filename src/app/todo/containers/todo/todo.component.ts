@@ -3,7 +3,7 @@ import { Store } from '@ngrx/store';
 import * as fromStore from '../../reducers/todo.reducer';
 import { AddTodo, ToggleTodo, RemoveTodo } from '../../actions/todo.actions';
 import { Todo } from '../../models/todo';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { State } from '../../../reducers';
 
 @Component({

@@ -7,24 +7,14 @@ exports[`TodoComponent should compile 1`] = `
 >
   <app-input>
     <div>
-      
-    
       <input
         placeholder="Add a todo"
       />
-      
-  
     </div>
-    
-  
-  </app-input>
-  <app-list
+  </app-input><app-list
     ng-reflect-todos=""
   >
     
-    
-  
   </app-list>
-  
 </app-todo>
 `;
