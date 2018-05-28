@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputComponent should compile 1`] = `
+<app-input
+  add={[Function EventEmitter]}
+>
+  <div>
+    
+    
+    <input
+      placeholder="Add a todo"
+    />
+    
+  
+  </div>
+  
+</app-input>
+`;

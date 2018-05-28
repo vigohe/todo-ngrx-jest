@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemComponent should compile 1`] = `
+<app-item
+  remove={[Function EventEmitter]}
+  todo={[Function Object]}
+  toggle={[Function EventEmitter]}
+>
+  <h1
+    style="text-decoration: line-through;"
+  >
+    
+      TODO TEXT 
+    <input
+      type="checkbox"
+    />
+     
+    <button>
+      X
+    </button>
+    
+  
+  </h1>
+  
+</app-item>
+`;

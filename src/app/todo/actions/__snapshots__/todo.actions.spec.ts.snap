@@ -1,5 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AddTodo should set payload to a Todo 1`] = `"[Todo] ADD"`;
+exports[`Actions should set payload remove Todo 1`] = `"[Todo] Remove"`;
 
-exports[`AddTodo should set payload to a Todo 2`] = `"GO TO WORK!"`;
+exports[`Actions should set payload remove Todo 2`] = `
+Object {
+  "complete": false,
+  "id": 100,
+  "text": "",
+}
+`;
+
+exports[`Actions should set payload to a Todo 1`] = `"[Todo] ADD"`;
+
+exports[`Actions should set payload to a Todo 2`] = `"GO TO WORK!"`;
+
+exports[`Actions should set payload toggle Todo 1`] = `"[Todo] Toggle"`;
+
+exports[`Actions should set payload toggle Todo 2`] = `
+Object {
+  "complete": false,
+  "id": 100,
+  "text": "",
+}
+`;

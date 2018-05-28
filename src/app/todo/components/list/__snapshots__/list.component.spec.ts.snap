@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListComponent should compile 1`] = `
+<app-list
+  remove={[Function EventEmitter]}
+  toggle={[Function EventEmitter]}
+>
+  
+  
+</app-list>
+`;
