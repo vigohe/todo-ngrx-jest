@@ -7,6 +7,13 @@ import {
 } from '@ngrx/store';
 import { environment } from '../../environments/environment';
 import * as fromTodo from '../todo/reducers/todo.reducer';
+import { localStorageSync } from "ngrx-store-localstorage";
+
+export function localStorageSyncReducer(
+  reducer: ActionReducer<any>
+): ActionReducer<any> {
+  return localStorageSync({ keys: ["todo"], rehydrate: true })(reducer);
+}
 
 export interface State {
 
@@ -19,4 +26,4 @@ export const reducers: ActionReducerMap<State> = {
 };
 
 
-export const metaReducers: MetaReducer<State>[] = !environment.production ? [] : [];
+export const metaReducers: MetaReducer<State>[] = !environment.production ? [localStorageSyncReducer] : [localStorageSyncReducer];
